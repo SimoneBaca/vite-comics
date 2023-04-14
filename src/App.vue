@@ -1,13 +1,15 @@
 <script>
  import HeaderComponent from './components/HeaderComponent.vue';
+ import ContentComponent from './components/ContentComponent.vue';
  export default {
   name: 'App',
-      components: {HeaderComponent}
+      components: {HeaderComponent, ContentComponent}
   }
 </script>
 
 <template>
-
+ <HeaderComponent/>
+  <ContentComponent/>
 </template>
 
 <style lang="scss" scoped>
