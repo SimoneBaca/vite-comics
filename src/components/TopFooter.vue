@@ -10,7 +10,7 @@ export default {
 }
 </script>
 <template>
-    <footer>
+     <div id="footer-top">
         <div class="container">
             <div class="row">
                 <div class="col pt-4">
@@ -50,12 +50,12 @@ export default {
             </div>
 
         </div>
-    </footer>
+    </div>
 </template>
 
 
 <style lang="scss" scoped>
-footer {
+#footer-top {
     background-image: url(../assets/images/footer-bg.jpg);
     height: 350px;
     color: white;

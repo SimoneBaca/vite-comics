@@ -3,9 +3,10 @@
  import ContentComponent from './components/ContentComponent.vue';
  import MainComponent from './components/MainComponent.vue';
   import FooterTop from './components/TopFooter.vue';
+  import FooterBottom from './components/BottomFooter.vue';
  export default {
   name: 'App',
-      components: {HeaderComponent, ContentComponent, MainComponent, FooterTop}
+      components: {HeaderComponent, ContentComponent, MainComponent, FooterTop, BottomFooter}
   }
 </script>
 
