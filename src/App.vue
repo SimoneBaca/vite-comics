@@ -1,11 +1,14 @@
-<script setup>
-
+<script>
+ import HeaderComponent from './components/HeaderComponent.vue';
+ export default {
+  name: 'App',
+      components: {HeaderComponent}
+  }
 </script>
 
 <template>
- 
+
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
 </style>
